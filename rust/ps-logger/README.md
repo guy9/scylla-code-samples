@@ -25,6 +25,8 @@ Run the code:
 $ cargo run
 ```
 ### Destroying the Scylla Cluster
+```bash
 docker-compose kill
 docker-compose rm -f
+```
 

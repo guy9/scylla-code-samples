@@ -108,7 +108,7 @@ check_prerequisites
 
 # Nodepool for scylla clusters
 gcloud container --project "${GCP_PROJECT}" \
-clusters create "${CLUSTER_NAME}" --username "admin" \
+clusters create "${CLUSTER_NAME}" \
 --zone "us-west1-b" \
 --node-locations "us-west1-b,us-west1-c" \
 --release-channel "rapid" \
